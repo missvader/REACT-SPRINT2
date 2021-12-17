@@ -80,6 +80,10 @@ $font-family-base: 'Rubik', sans-serif;
 #header4{
   border-bottom: 1px solid grey;
 }
+.container-footer{
+  background-color: #78909C;
+
+}
 
 @include media-breakpoint-only(md){
   .imagen1{
