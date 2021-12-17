@@ -56,6 +56,16 @@ $font-family-base: 'Rubik', sans-serif;
 .nav-item.item{
   border-bottom: 1px solid grey;
 }
+.card-img-top{
+  width: auto;
+  height: 8rem;
+} 
+.card2{
+  top: 10%;
+}
+.card3{
+  top: 20%;
+}
 
 @include media-breakpoint-only(md){
   .imagen1{
