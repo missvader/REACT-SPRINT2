@@ -84,6 +84,28 @@ $font-family-base: 'Rubik', sans-serif;
   background-color: #78909C;
 
 }
+.navbar .nav-item:hover .nav-link{ 
+  color: $secondary !important;
+  }
+.navbar .nav-item:hover .btn{ 
+  background-color: transparent !important;
+  }
+.btn-primary:hover{
+  background-color: transparent !important;
+  color: $primary !important;
+}
+.btn-light:hover{
+  border-color: grey !important;
+}
+.accordion-button:hover{
+  color: $secondary !important;
+}
+.btn-secondary:hover{
+  background-color: white !important;
+  color: $secondary !important;
+}
+
+
 
 @include media-breakpoint-only(md){
   .imagen1{
