@@ -1,2 +1,17 @@
+// custom variables
+$primary: #5265E1;
+$secondary: #FA5959;
+$font-family-base: 'Rubik', sans-serif;
+
 //import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.imagen1{
+  z-index: 2;
+}
+.figura1{
+  z-index: 1;
+  top: -70%;
+  left: 27%;
+  
+}

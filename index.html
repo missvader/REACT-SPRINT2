@@ -5,8 +5,63 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPRINT2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-  
+  <nav>
+    <div class="container">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid mt-4">
+          <a href="#" class="navbar-brand">
+            <img src="./images/logo-bookmark.svg" alt="logo-bookmark">
+          </a>
+          <button type="button" class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#Menu">
+            <img src="./images/icon-hamburger.svg" alt="icon-hamburguer">
+          </button>
+          <div id="Menu" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item  ">
+                <a class="nav-link active  text-muted" href="#">FEATURES</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-muted"href="#">PRICING</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-muted"  href="#">CONTACT</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link btn btn-secondary text-white" type="button" href="#">LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+  <div class="container mt-5  ">
+    <div class="row">
+      <div class="col-12 col-md-6 order-md-2  mt-5  ">
+        <img src="./images/illustration-hero.svg" class="imagen1 img-fluid position-relative mh-100 " alt="illustration-hero">
+        <figure class="figura1 bg-primary  position-relative w-75 h-75 rounded-pill rounded-end"></figure>
+      </div>
+      <div class="col-12 col-md-6 order-md-1 mt-5 ">
+        <h1 class="mt-5 mb-lg-5 text-center text-md-start">A Simple Bookmark Manager</h1>
+        <p class=" text-muted mt-4 mb-4 mb-lg-5 text-center text-md-start ">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free</p>
+        <div class="row">
+          <div class="col-6  ">
+            <button type="button" class="btn btn-primary  ">Get in on Chrome</button>
+          </div>
+          <div class="col-6">
+            <button type="button" class="btn text-muted  btn-light shadow  bg-body rounded ">Get it on Firefox</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
