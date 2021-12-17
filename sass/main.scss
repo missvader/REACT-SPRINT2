@@ -66,6 +66,20 @@ $font-family-base: 'Rubik', sans-serif;
 .card3{
   top: 20%;
 }
+.container-md{
+  height: 100%;
+}
+
+.accordion-item{
+  border: none;
+}
+.accordion-header{
+  
+  border-top: 1px solid grey;
+}
+#header4{
+  border-bottom: 1px solid grey;
+}
 
 @include media-breakpoint-only(md){
   .imagen1{
