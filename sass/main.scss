@@ -15,3 +15,66 @@ $font-family-base: 'Rubik', sans-serif;
   left: 27%;
   
 }
+.imagen2{
+  z-index: 2;
+}
+.figura2{
+  z-index: 1;
+  top: -70%;
+  left: -3%;
+}
+.imagen3{
+  z-index: 2;
+}
+.figura3{
+  z-index: 1;
+  top: -70%;
+  left: -3%;
+}
+.imagen4{
+  z-index: 2;
+}
+.figura4{
+  z-index: 1;
+  top: -70%;
+  left: -3%;
+}
+.nav-tabs{
+  border-bottom: none;
+}
+.nav-tabs .nav-link{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  
+  color: gray;
+}
+.nav-tabs .nav-link.active{
+  border-bottom: 3px solid $secondary;
+  
+}
+.nav-item.item{
+  border-bottom: 1px solid grey;
+}
+
+@include media-breakpoint-only(md){
+  .imagen1{
+    margin-top: 20%;
+  }
+  .figura1{
+    max-height: 50%;
+    top: -50%;
+  }
+  .figura2{
+    max-height: 70%;
+    top: -50%;
+
+  }
+
+}
+@include media-breakpoint-only(lg){
+  .imagen3{
+    margin-left: 1rem;
+  }
+  
+}
